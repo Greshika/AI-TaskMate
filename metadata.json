@@ -1,0 +1,6 @@
+{
+  "name": "AI TaskMate",
+  "description": "An AI-powered productivity web application that prioritizes tasks dynamically by deadline, sends intelligent alerts, and offers smart AI suggestions to boost focus.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
