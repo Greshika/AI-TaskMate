@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI TaskMate 🚀
 
-# Run and deploy your AI Studio app
+**AI TaskMate** is an AI‑powered productivity web application that helps you stay focused by:
+- Prioritizing tasks dynamically by deadline
+- Sending smart alerts
+- Offering intelligent AI suggestions
 
-This contains everything you need to run your app locally.
+Built with **React**, **Express**, and **Google Gemini API**, it combines a modern UI with powerful AI features.
 
-View your app in AI Studio: https://ai.studio/apps/690ac8ea-3399-424b-82ea-fe63276c8b73
+---
+
+## ✨ Features
+- 🔮 Dynamic task prioritization  
+- 🔔 Smart alerts and reminders  
+- 🤖 AI‑powered productivity suggestions  
+- 🎨 Modern UI with TailwindCSS and Motion  
+- ⚡ Fast builds with Vite + ESBuild  
+
+---
+
+## 📦 Tech Stack
+- **Frontend:** React 19, Vite, TailwindCSS, Motion, Lucide Icons  
+- **Backend:** Express.js, Node.js  
+- **AI Integration:** Google Gemini API (`@google/genai`)  
+- **Build Tools:** ESBuild, TSX, TypeScript  
+- **Environment:** dotenv for configuration  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (latest LTS recommended)
+- Gemini API key
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-taskmate.git
+cd ai-taskmate
+
+## Install dependencies
+npm install
+
+## Configuration
+Create a `.env.local` file in the root directory and add:
+```bash
+GEMINI_API_KEY=your_api_key_here
 
 ## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+npm run dev
